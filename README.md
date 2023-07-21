@@ -14,6 +14,7 @@
 1. restAPI로 login 구현 전 기본 로그인 구현
 2. restAPI 및 Token을 활용한 로그인 구현(오류 발생)
 3. email 회원가입을 통한 로그인 구현
+4. id 회원가입을 통한 로그인 구현
 
 ## Database
 
