@@ -1,3 +1,26 @@
->회원가입 & 로그인, 로그아웃 구현
+회원가입 & 로그인, 로그아웃 구현
 
-개발환경: IntelliJ IDEA Community + Mysql + JDK11
+[spring initializr]
+
+Gradle-Groovy
+Java
+SpringBoot 2.7.14
+Packaging Jar
+Java 11
+Thymeleaf
+Lombok
+Spring Data JPA
+
+
+[개발환경]
+
+IntelliJ IDEA Community
+MySQL server 8.0
+'io.spring.dependency-management' version '1.0.15.RELEASE'
+
+
+[Controller 설명]
+main페이지에서 회원가입, 로그인, 회원목록 확인 가능
+/member/save : 회원가입 페이지로 회원가입 완료 후 로그인창으로 넘어
+/member/login : 로그인 페이
+/member/ : 회원목록 확인 페이지
