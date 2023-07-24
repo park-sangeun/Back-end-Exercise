@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Setter
@@ -16,12 +17,15 @@ public class MemberEntity {
     private Long user_no;
 
     @Column(name = "userId", unique = true)
+    @NotNull
     private String userId;
 
     @Column
+    @NotNull
     private String user_password;
 
     @Column
+    @NotNull
     private String name;
 
     public static MemberEntity toMemberEntity(MemberDTO memberDTO) {

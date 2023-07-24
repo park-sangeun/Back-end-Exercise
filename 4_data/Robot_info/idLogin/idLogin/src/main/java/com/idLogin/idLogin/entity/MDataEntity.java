@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Setter
@@ -18,12 +19,15 @@ public class MDataEntity {
     private Long mRobot_info_id;
 
     @Column
+    @NotNull
     private Float mHumidity;
 
     @Column
+    @NotNull
     private Float mTemp;
 
     @Column
+    @NotNull
     private Double mLocate;
 
     public static MDataEntity toDataEntity(MDataDTO dataDTO) {
