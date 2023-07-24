@@ -18,9 +18,9 @@
 
 ## 4_data
 
-1. Robot_info
-   mRobot_info에 예제 데이터 넣어두고 서버에 {key: value}로 출력
-   sRobot_info에는 라즈베리파이와 연결 후 띄우기 (도전)
+1. Robot_info <br>
+   mRobot_info에 예제 데이터 넣어두고 서버에 {key: value}로 출력 </br>
+   sRobot_info에는 라즈베리파이와 연결 후 띄우기 (도전) </br>
 3. 
 
    
