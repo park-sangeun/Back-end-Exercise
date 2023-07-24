@@ -18,8 +18,10 @@
 
 ## 4_data
 
-1. Robot_info에 저장한 값 웹에 띄우기(mRobot_info, sRobot_info 구현 완료)
-2. 
+1. Robot_info
+   mRobot_info에 예제 데이터 넣어두고 서버에 {key: value}로 출력
+   sRobot_info에는 라즈베리파이와 연결 후 띄우기 (도전)
+3. 
 
    
 ## Database
