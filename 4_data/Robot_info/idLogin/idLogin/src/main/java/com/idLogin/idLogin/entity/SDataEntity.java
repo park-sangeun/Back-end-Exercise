@@ -28,20 +28,20 @@ public class SDataEntity {
     @NotNull
     private Double sLocate;
 
-    public static SDataEntity toDataEntity(SDataDTO dataDTO) {
+    public static SDataEntity toSDataEntity(SDataDTO sdataDTO) {
         SDataEntity sdataEntity = new SDataEntity();
-        sdataEntity.setSHumidity(dataDTO.getSHumidity());
-        sdataEntity.setSTemp(dataDTO.getSTemp());
-        sdataEntity.setSLocate(dataDTO.getSLocate());
+        sdataEntity.setSHumidity(sdataDTO.getSHumidity());
+        sdataEntity.setSTemp(sdataDTO.getSTemp());
+        sdataEntity.setSLocate(sdataDTO.getSLocate());
         return sdataEntity;
     }
 
-    public static SDataEntity toUpdateDataEntity(SDataDTO dataDTO) {
+    public static SDataEntity toUpdateSDataEntity(SDataDTO sdataDTO) {
         SDataEntity sdataEntity = new SDataEntity();
-        sdataEntity.setSRobot_info_id(dataDTO.getSRobot_info_id());
-        sdataEntity.setSHumidity(dataDTO.getSHumidity());
-        sdataEntity.setSTemp(dataDTO.getSTemp());
-        sdataEntity.setSLocate(dataDTO.getSLocate());
+        sdataEntity.setSRobot_info_id(sdataDTO.getSRobot_info_id());
+        sdataEntity.setSHumidity(sdataDTO.getSHumidity());
+        sdataEntity.setSTemp(sdataDTO.getSTemp());
+        sdataEntity.setSLocate(sdataDTO.getSLocate());
         return sdataEntity;
     }
 }

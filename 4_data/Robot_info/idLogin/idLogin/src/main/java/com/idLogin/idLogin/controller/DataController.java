@@ -1,7 +1,5 @@
 package com.idLogin.idLogin.controller;
 
-import com.idLogin.idLogin.dto.MemberDTO;
-import com.idLogin.idLogin.dto.SDataDTO;
 import com.idLogin.idLogin.entity.MDataEntity;
 import com.idLogin.idLogin.entity.SDataEntity;
 import com.idLogin.idLogin.repository.MDataRepository;
@@ -26,8 +24,6 @@ public class DataController {
         return "data";
     }
 
-    //@PostMapping("/data")
-    //public String data(@ModelAttribute SDataDTO memberDTO){;}
 
     @GetMapping("/data/sRobot")
     List<SDataEntity> prints() {

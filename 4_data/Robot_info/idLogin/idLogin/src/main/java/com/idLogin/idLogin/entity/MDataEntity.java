@@ -30,20 +30,20 @@ public class MDataEntity {
     @NotNull
     private Double mLocate;
 
-    public static MDataEntity toDataEntity(MDataDTO dataDTO) {
+    public static MDataEntity toMDataEntity(MDataDTO mdataDTO) {
         MDataEntity mdataEntity = new MDataEntity();
-        mdataEntity.setMHumidity(dataDTO.getMHumidity());
-        mdataEntity.setMTemp(dataDTO.getMTemp());
-        mdataEntity.setMLocate(dataDTO.getMLocate());
+        mdataEntity.setMHumidity(mdataDTO.getMHumidity());
+        mdataEntity.setMTemp(mdataDTO.getMTemp());
+        mdataEntity.setMLocate(mdataDTO.getMLocate());
         return mdataEntity;
     }
 
-    public static MDataEntity toUpdateDataEntity(MDataDTO dataDTO) {
+    public static MDataEntity toUpdateMDataEntity(MDataDTO mdataDTO) {
         MDataEntity mdataEntity = new MDataEntity();
-        mdataEntity.setMRobot_info_id(dataDTO.getMRobot_info_id());
-        mdataEntity.setMHumidity(dataDTO.getMHumidity());
-        mdataEntity.setMTemp(dataDTO.getMTemp());
-        mdataEntity.setMLocate(dataDTO.getMLocate());
+        mdataEntity.setMRobot_info_id(mdataDTO.getMRobot_info_id());
+        mdataEntity.setMHumidity(mdataDTO.getMHumidity());
+        mdataEntity.setMTemp(mdataDTO.getMTemp());
+        mdataEntity.setMLocate(mdataDTO.getMLocate());
         return mdataEntity;
     }
 }
