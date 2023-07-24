@@ -16,6 +16,12 @@
 3. email 회원가입을 통한 로그인 구현
 4. id 회원가입을 통한 로그인 구현
 
+## 4_data
+
+1. Robot_info에 저장한 값 웹에 띄우기(mRobot_info, sRobot_info 구현 완료)
+2. 
+
+   
 ## Database
 
 한이음 프로젝트 2023 DB 개발
